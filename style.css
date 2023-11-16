@@ -1,0 +1,178 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.container {
+  max-width: 1600px;
+  height: 1600px;
+  background: var(--Black, #151515);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-left {
+  padding: 39px 493px 0px 165px;
+}
+.nav-left h1 {
+  color: var(--White, #fff);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 100% */
+  letter-spacing: -0.444px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 44px 165px 0px 0px;
+}
+li {
+  color: #fff;
+}
+.text_1 {
+  color: #fff;
+  padding: 160px 160px 0px;
+  color: var(--White, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Space Grotesk;
+  font-style: normal;
+  letter-spacing: -2.5px;
+  display: flex;
+  justify-content: space-between;
+}
+.text_2 {
+  color: var(--Grey, #d9d9d9);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Space Grotesk;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  padding: 43px 0px 66px 165px;
+}
+.img img {
+  width: 450px;
+  height: 350px;
+  border-radius: 10px;
+  margin-left: 1000px;
+  margin-top: -350px;
+  background: none;
+  color: #151515;
+}
+.btn {
+  color: #151515;
+  padding: 0px 0px 0px 165px;
+}
+.btn button {
+  color: var(--White, #fff);
+  font-family: Space Grotesk;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 2.286px;
+  border: none;
+  background-color: #151515;
+}
+.row {
+  margin-top: 50px;
+}
+.languages {
+  display: flex;
+  justify-content: space-between;
+  padding: 72px 284px 0px 170px;
+  color: #fff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.row_2 {
+  margin-top: 30px;
+}
+.project_text {
+  color: #d9d9d9;
+  text-align: center;
+  padding: 100px;
+}
+.project_1 button {
+  width: 100px;
+  height: 45px;
+  border-radius: 10px;
+  background-color: green;
+  border: none;
+  color: #fff;
+}
+.project_2 button {
+  width: 100px;
+  height: 45px;
+  border-radius: 10px;
+  background-color: green;
+  border: none;
+  color: #fff;
+}
+.project_3 button {
+  width: 100px;
+  height: 45px;
+  border-radius: 10px;
+  background-color: green;
+  border: none;
+  color: #fff;
+}
+.project_4 button {
+  width: 100px;
+  height: 45px;
+  border-radius: 10px;
+  background-color: green;
+  border: none;
+  color: #fff;
+}
+
+.project_5 button {
+  width: 100px;
+  height: 45px;
+  border-radius: 10px;
+  background-color: green;
+  border: none;
+  color: #fff;
+}
+.projects_child {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 165px 0px 165px;
+}
+.contact_text_1 {
+  color: var(--White, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Space Grotesk;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 88px;
+  letter-spacing: -2.5px;
+  padding: 84px 0px 50px 165px;
+  text-align: center;
+}
+.contact {
+  max-width: 1600px;
+  height: 500px;
+  background: var(--Dark-Grey, #242424);
+  margin-top: 100px;
+}
+.contact_text_2 {
+  color: var(--Grey, #d9d9d9);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Space Grotesk;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  padding: 0px 0px 0px 165px;
+  text-align: center;
+}
